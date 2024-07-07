@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275867300721",
+    "project_id": "news-catalog-1df3e",
+    "storage_bucket": "news-catalog-1df3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275867300721:android:aef78a7be1cb5256cfbcd0",
+        "android_client_info": {
+          "package_name": "com.example.listgrid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUc3ucCqsQP7IcMTqyEKBPeLubXPqWLpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
