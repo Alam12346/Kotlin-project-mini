@@ -6,6 +6,15 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        getByName("debug") {
+            storeFile =
+                file("C:\\Users\\Administrator\\AndroidStudioProjects\\List-Grid_Kotlin\\app\\news.jks")
+            storePassword = "Alam12346"
+            keyAlias = "newsalias"
+            keyPassword = "Alam12346"
+        }
+    }
     namespace = "com.example.listgrid"
     compileSdk = 34
 
@@ -26,6 +35,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
@@ -83,6 +93,8 @@ dependencies {
 
     implementation ("com.google.firebase:firebase-auth")
     implementation ("com.google.android.gms:play-services-auth")
+
+    implementation("com.google.android.gms:play-services-auth:21.2.0")
 
 
 
