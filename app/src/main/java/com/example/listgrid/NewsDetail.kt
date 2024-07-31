@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.example.listgrid.R
 import com.google.firebase.firestore.FirebaseFirestore
 
 class NewsDetail : AppCompatActivity() {
@@ -28,7 +27,7 @@ class NewsDetail : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_news_detail)
 
-        newsTitle = findViewById(R.id.newsTitle)
+        newsTitle = findViewById(R.id.store)
         newsSubtitle = findViewById(R.id.newsSubtitle)
         newsImage = findViewById(R.id.newsImage)
         edit = findViewById(R.id.editButton)

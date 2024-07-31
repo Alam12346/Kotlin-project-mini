@@ -12,38 +12,50 @@
       android:layout_height="wrap_content"
       android:layout_margin="10dp"
       android:orientation="vertical"
-      tools:ignore="MissingConstraints">
+      android:paddingTop="80dp"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="9dp"
+      tools:layout_editor_absoluteY="36dp">
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="277dp"
+        android:layout_margin="8dp"
+        android:background="#E0E0E0"
+        android:contentDescription="Gambar yang dipilih" />
+
     <EditText
         android:id="@+id/title"
-        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Masukan Judul"/>
+        android:layout_margin="8dp"
+        android:hint="Masukan Judul" />
+
     <EditText
         android:id="@+id/desc"
-        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Masukan Deskripsi"/>
-    <ImageView
-        android:id="@+id/imageView"
         android:layout_margin="8dp"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#E0E0E0"
-        android:contentDescription="Gambar yang dipilih"/>
+        android:hint="Masukan Deskripsi" />
+
     <Button
         android:id="@+id/btnChooseImage"
-        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Pilih Gambar"/>
+        android:layout_margin="8dp"
+        android:text="Pilih Gambar" />
+
     <Button
         android:id="@+id/btnAdd"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Simpan"/>
+        android:layout_margin="10dp"
+        android:text="Simpan" />
+
+
   </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
